@@ -1,0 +1,169 @@
+body {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../Images/jessica-loaiza-jxfByDVJmS4-unsplash.jpg');
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+  padding: 5%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+  .header {
+    overflow: hidden;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to left, #5e453d88, #28211f88);
+  }
+  
+  .header .logo {
+    justify-self: right;
+    width: 5%;
+    padding: 10px;
+    margin-left: 30px;
+    transition: transform 0.3s ease;
+  }
+  
+  .header .logo img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .header .logo:hover {
+    transform: scale(1.1); 
+  }
+  
+  .header a {
+    font-family: 'Cinzel';
+    font-size: 120%;
+    float: left;
+    color: whitesmoke;
+    text-align: center;
+    padding: 12px 8px; 
+    text-decoration: none;
+    line-height: 25px;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .header a:hover {
+    background-color: #e6e0e0;
+    color: black;
+  }
+
+
+  .footer {
+    font-family: 'Libre Baskerville', serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;
+    margin-top: 80px;
+  }
+  
+  .footer a:hover {
+    background-color: #d6c8c8;
+    ;
+    color: black;
+  }
+  
+  .footer .copy {
+    color: #fff;
+  }
+  
+  .bottom-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+  }
+  
+  .bottom-links .links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 40px;
+  }
+  
+  .bottom-links .links span {
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 10px 0;
+    padding: 50px; 
+  }
+  
+  .bottom-links .links a {
+    text-decoration: none;
+    color: #af7e66e4;
+    padding: 10px 20px;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+  }
+
+  h1{
+    text-transform: uppercase;
+    font-family: 'Cinzel';
+    font-size:xx-large;
+    margin: 0%;
+    padding: 40px;
+  }
+
+  p{
+    padding: 20px;
+    font-family: 'Libre Baskerville', serif;
+  }
+
+  input[type=text], select {
+    padding: 20px;
+    margin:20px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .textbox{
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  input[type=checkbox]{
+    size: 150%;
+
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #af7e66e4;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 20%;
+  }
+  
+  .input[type=submit]:hover {
+    background-color: #633b3b;
+  }
+  
+  
+
+  label{ 
+    font-family: 'Cinzel';
+    padding: 5%;
+  }
