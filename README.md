@@ -1,4 +1,4 @@
-URL: https://00017333wiut.github.io/fondant.github.io/Pages/Jobs/jobs.html
+URL: https://00017333wiut.github.io/fondant.github.io/index.html
 
 This website was created to fulfil the Web Technology module requirements and does not represent an actual company or service. 
 
