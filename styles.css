@@ -20,6 +20,10 @@ body {
   justify-content: space-between;
   align-items: center;
   background: linear-gradient(to left, #56434088, #15131388);
+
+  opacity: 0;
+  transform: translateX(-100%);
+  animation: slideInContainer 1s ease forwards;
 }
 
 .header .logo {

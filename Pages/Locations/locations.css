@@ -20,6 +20,10 @@ body {
       justify-content: space-between;
       align-items: center;
       background: linear-gradient(to left, #56434088, #28211fc7);
+
+      opacity: 0;
+    transform: translateX(-100%);
+    animation: slideInContainer 1s ease forwards;
     }
     
     .header .logo {
@@ -147,3 +151,13 @@ body {
    }
 
 
+   @keyframes slideInContainer {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }

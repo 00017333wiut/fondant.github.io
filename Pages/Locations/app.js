@@ -1,4 +1,5 @@
-const container = document.querySelector('.container');
+
+const container = document.querySelector('.header');
 
 const tl = new TimelineMax();
 
@@ -7,4 +8,3 @@ function showContainer() {
   }
   
   setTimeout(showContainer, 1000);
-
