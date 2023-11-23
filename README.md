@@ -1,3 +1,5 @@
+URL: https://00017333wiut.github.io/fondant.github.io/Pages/Jobs/jobs.html
+
 This website was created to fulfil the Web Technology module requirements and does not represent an actual company or service. 
 
 The main page (index.html) contains links to the Cascading Style Sheet (styles.css) and the Javascript file to style the web content and animate some objects.
